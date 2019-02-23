@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const fs = require('fs');
 const client = new Discord.Client();
-var prefix = "$";
+var prefix = "A";
 giftKeys = {};
 let devs = ["426034919232372737"];
 client.on("message", msg =>{
